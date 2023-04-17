@@ -29,7 +29,7 @@ public class Input {
                 scanner.next();
             }
             num = scanner.nextInt();
-            scanner.nextLine(); // consume remaining newline character
+            scanner.nextLine();
         } while (num < min || num > max);
         return num;
     }
